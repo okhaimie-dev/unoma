@@ -1,0 +1,250 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "profileAddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "podcastName",
+        "type": "string"
+      }
+    ],
+    "name": "PodcastNameUpdated",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "profileAddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "podcastName",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "postThumbnailUrl",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "postAudioUrl",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "postTitle",
+        "type": "string"
+      }
+    ],
+    "name": "Posted",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "profileAddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "profileThumbnailUrl",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "profileName",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "profileBio",
+        "type": "string"
+      }
+    ],
+    "name": "ProfileUpdated",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "name": "idToPostManager",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "profileAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "podcastName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "postThumbnailUrl",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "postAudioUrl",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "postAudioName",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "name": "idToProfileManagerUpdater",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "profileAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "profileThumbnailUrl",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "profileName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "profileBio",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "name": "idToUpdatePodcastNameManager",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "profileAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "podcastName",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "podcastName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "thumbnailUrl",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "audioUrl",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "audioName",
+        "type": "string"
+      }
+    ],
+    "name": "post",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "podcastName",
+        "type": "string"
+      }
+    ],
+    "name": "updatePodcastName",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "profileThumbnailUrl",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "profileName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "profileBio",
+        "type": "string"
+      }
+    ],
+    "name": "updateProfile",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

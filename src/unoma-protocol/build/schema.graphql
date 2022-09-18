@@ -1,0 +1,22 @@
+type Profiles @entity {
+    id: ID!
+    profileAddress: String
+    profileThumbnailUrl: String
+    profileName: String
+    profileBio: String
+}
+
+type PodcastName @entity {
+    id: ID!
+    profileAddress: String
+    podcastName: String
+}
+
+type Post @entity {
+    id: ID!
+    profileAddress: String
+    podcastName: String
+    postThumbnailUrl: String
+    postAudioUrl: String
+    postTitle: String
+}
