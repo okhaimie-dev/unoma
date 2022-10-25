@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           </div>
           <div className='p-5'>
             <h2 className='h2 text-white'>Top 5 Podcaster</h2>
-            <div className='flex space-x-5'>
+            <div className='flex space-x-5 py-2.5'>
               <HorizontalCard thumbnail='' />
               <HorizontalCard thumbnail='' />
               <HorizontalCard thumbnail='' />
