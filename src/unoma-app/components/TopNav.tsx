@@ -23,7 +23,7 @@ export default function TopNav() {
         </div>
         <button className="text-white sm:hidden" onClick={toggleMenu}><MenuAlt3Icon  className="w-10 h-10" /></button>
       </div>
-      <div className="flex max-w-xs items-center space-x-5 justify-between">
+      <div className="flex md:max-w-xs items-center space-x-5 justify-between">
         <div className=" p-2.5 bg-blue w-10 h-10 rounded-full flex items-center hover:cursor-pointer">
             <Image src={"/bell.png"} width={25} height={25} />
         </div>
