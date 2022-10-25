@@ -12,13 +12,13 @@ module.exports = {
       },
       textColor: {
         "blue": "#008BEE"
+      },
+      borderColor: {
+        "purple": "#4E5275"
       }
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif']
-    },
-    borderColor: {
-      "purple": "#4E5275"
     }
   },
   plugins: [
