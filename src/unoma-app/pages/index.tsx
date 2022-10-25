@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <div className='flex-1 flex flex-col overflow-x-scroll  overflow-y-scroll scrollbar-none'>
           <TopNav />
           <Nav2 />
-          <div className='px-5 grid grid-cols-4 space-y-4 border-b-2 border-b-purple py-5'>
+          <div className='px-5 grid grid-cols-4 gap-4 border-b-2 border-b-purple py-5'>
             <VericalCard thumbnail="/card1.png" />
             <VericalCard thumbnail="/card2.png" />
             <VericalCard thumbnail="/card3.png" />
