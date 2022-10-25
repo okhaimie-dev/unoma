@@ -7,7 +7,8 @@ interface Props {
 
 export default function SideNav({ page }: Props) {
   return (
-    <div className="fixed left-0 max-h-screen w-72 bg-black px-5 py-5 overflow-y-scroll scrollbar-thin scrollbar-thumb-[#008BEE]">
+    <div className="fixed left-0 transform transition duration-1000 ease-in-out sidenav
+        h-screen 2-64 md:w-72 bg-black px-5 py-5 overflow-y-scroll scrollbar-thin scrollbar-thumb-[#008BEE]">
         <div className="h1 uppercase text-black font-bold"><span className="text-white">Un</span><span className="text-blue">oma</span></div>
         <div className="pt-5 space-y-2.5">
             <div>
