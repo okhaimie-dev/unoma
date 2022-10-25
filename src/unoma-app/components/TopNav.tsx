@@ -11,7 +11,7 @@ export default function TopNav() {
         </button>
         <input
           type="text"
-          className="text-white text-sm rounded-lg w-full pl-10 p-2.5 bg-[#343646] outline-none placeholder-white border border-purple"
+          className="text-white text-sm rounded-lg w-full pl-10 p-2.5 bg-lightPurple outline-none placeholder-white border border-purple"
           placeholder="Search presenters, viewers, and podcasts across the globe"
           required
         />
