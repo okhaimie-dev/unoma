@@ -20,11 +20,15 @@ const Home: NextPage = () => {
           <div className='flex flex-col overflow-y-scroll scrollbar-none'>
             <TopNav />
             <Nav2 />
-            <div className='px-5 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 border-b-2 border-b-purple py-5'>
+            <div className='px-5 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-6 gap-4 border-b-2 border-b-purple py-5'>
               <VericalCard thumbnail="/card1.png" />
               <VericalCard thumbnail="/card2.png" />
               <VericalCard thumbnail="/card3.png" />
               <VericalCard thumbnail="/card4.png" />
+              <VericalCard thumbnail="/card5.png" />
+              <VericalCard thumbnail="/card6.png" /> 
+              <VericalCard thumbnail="/card7.png" />
+              <VericalCard thumbnail="/card8.png" />
               <VericalCard thumbnail="/card5.png" />
               <VericalCard thumbnail="/card6.png" /> 
               <VericalCard thumbnail="/card7.png" />
@@ -75,5 +79,7 @@ export default Home
             </div>
           </div>
         </div>
+
+        'px-5 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 border-b-2 border-b-purple py-5'
  * 
  */
