@@ -11,7 +11,7 @@ export default function VericalCard({ thumbnail }: Props) {
         <Image src={thumbnail} width={185} height={150} />
       </div>
       <h3 className="h3 text-white">Podcast Title</h3>
-      <p className="p text-white">10 episodes</p>
+      <p className="p text-gray">10 episodes</p>
     </div>
   )
 }

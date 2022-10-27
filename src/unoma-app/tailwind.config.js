@@ -12,7 +12,8 @@ module.exports = {
         "lightPurple": "#343646"
       },
       textColor: {
-        "blue": "#008BEE"
+        "blue": "#008BEE",
+        "gray": "#999999"
       },
       borderColor: {
         "purple": "#4E5275"
