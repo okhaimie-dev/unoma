@@ -28,7 +28,7 @@ export default function TopNav() {
         <div className=" p-2.5 bg-blue w-10 h-10 rounded-full flex items-center hover:cursor-pointer">
             <Image src={"/bell.png"} width={25} height={25} />
         </div>
-        <ConnectButton chainStatus="icon" />
+        <ConnectButton chainStatus="icon" accountStatus="avatar" />
         <button className="text-white hidden sm:block md:hidden" onClick={toggleMenu}><MenuAlt3Icon  className="w-10 h-10" /></button>
       </div>
     </div>
