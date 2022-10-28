@@ -12,6 +12,9 @@
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "@rainbow-me/rainbowkit": "^0.7.1",
+    "ethers": "^5.7.1",
+    "wagmi": "^0.6.8",
     "tailwind-scrollbar": "^2.0.1"
   },
   "devDependencies": {
