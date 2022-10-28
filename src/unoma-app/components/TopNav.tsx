@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { MenuAlt3Icon } from "@heroicons/react/solid"
+import { ConnectButton } from '@rainbow-me/rainbowkit'
 
 export default function TopNav() {
   const toggleMenu = () => {
@@ -27,9 +28,11 @@ export default function TopNav() {
         <div className=" p-2.5 bg-blue w-10 h-10 rounded-full flex items-center hover:cursor-pointer">
             <Image src={"/bell.png"} width={25} height={25} />
         </div>
-        <button className="bg-blue px-5 py-2.5 rounded-lg text-white">Connect Wallet</button>
+        <ConnectButton chainStatus="icon" />
         <button className="text-white hidden sm:block md:hidden" onClick={toggleMenu}><MenuAlt3Icon  className="w-10 h-10" /></button>
       </div>
     </div>
   )
 }
+
+/** <button className="bg-blue px-5 py-2.5 rounded-lg text-white">Connect Wallet</button> */
